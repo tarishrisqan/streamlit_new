@@ -97,6 +97,7 @@ Untuk menjalankan aplikasi ini, silahkan cari file yang bernamaa `prediction.py`
 ```bash
 streamlit run prediction.py
 ```
+atau bisa juga buka link ini <a href="https://rish-prediction.streamlit.app/">Students Performance App</a> 
 
 ## Conclusion
 * Student yang mendaftar  pembelajaran paling banyak berada di usia `18 Tahun` kemudian di angka `19 Tahun` dan `20 Tahun`.
