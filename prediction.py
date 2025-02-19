@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import sklearn
 
 
 # Load model
@@ -60,7 +61,7 @@ def main():
         # Load model yang dipilih
         model = load_model(model_name)
 
-        # Button untuk trigger
+      # Button untuk trigger
         if st.button('Prediksi'):
             # Melakukan prediksi
             predictions = predict_attrition(model, data)
